@@ -1,0 +1,13 @@
+{
+  "execution_mode": "integrated",
+  "conversation_id": "conv_audio_001",
+  "input_type": "audio",
+  "audio_path": "audio/1008_ITH_DIS_XX.wav",
+  "audio_language": "en",
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "selected_memory_ids": [],
+  "use_global_memory": false,
+  "toolset": "multimodal_tools",
+  "max_turns": 6,
+  "save_memory": "conversation"
+}

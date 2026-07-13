@@ -1,0 +1,12 @@
+{
+  "execution_mode": "integrated",
+  "input_type": "text",
+  "conversation_id": "conv_plan_kv_cache_hit_001",
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "selected_memory_ids": [],
+  "use_global_memory": false,
+  "toolset": "basic_tools",
+  "max_turns": 5,
+  "save_memory": "none",
+  "user_input": "Please answer in Chinese. Search the local docs directory for documents about Agent tool calling, then read the most relevant document returned by the search, and finally summarize the evidence into three concise Chinese bullet points. This requires the dependent sequence local_file_search -> file_reader -> final answer; do not guess the file path before searching."
+}

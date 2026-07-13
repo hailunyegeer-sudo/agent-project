@@ -1,0 +1,6 @@
+{
+  "query": "B3 tools_schema 参数校验",
+  "root_dir": "docs",
+  "file_types": ["txt", "md"],
+  "top_k": 5
+}

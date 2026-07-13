@@ -1,0 +1,17 @@
+{
+  "execution_mode": "integrated",
+  "conversation_id": "44bbc78e0def_turn_002",
+  "input_type": "audio",
+  "audio_path": "/root/siton-tmp/assignment_B/agent/data/voice_sessions/44bbc78e0def/input_002.wav",
+  "audio_language": "zh",
+  "system_prompt_path": "/root/siton-tmp/assignment_B/agent/prompts/local_tool_agent.txt",
+  "selected_memory_ids": [
+    "mem_conversation_44bbc78e0def_turn_001"
+  ],
+  "use_global_memory": false,
+  "toolset": "multimodal_tools",
+  "max_turns": 6,
+  "save_memory": "conversation",
+  "enable_tts": false,
+  "tts_language": "auto"
+}

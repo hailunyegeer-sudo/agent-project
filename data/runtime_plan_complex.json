@@ -1,0 +1,11 @@
+{
+  "execution_mode": "integrated",
+  "conversation_id": "conv_plan_001",
+  "user_input": "请在 docs 目录中检索与 Agent 工具调用相关的本地文档，读取检索结果中最相关的一份文档，并基于该文档总结三条中文要点。",
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "selected_memory_ids": ["mem_conversation_conv_000"],
+  "use_global_memory": true,
+  "toolset": "basic_tools",
+  "max_turns": 3,
+  "save_memory": "conversation"
+}

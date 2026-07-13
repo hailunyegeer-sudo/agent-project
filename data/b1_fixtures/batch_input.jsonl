@@ -1,0 +1,3 @@
+{"input": "../data/b1_fixtures/b1_fixture_input.json", "outdir": "../outputs/B1_fixture/batch_run/task1"}
+{"input": "../data/b1_fixtures/b1_fixture_input.json", "outdir": "../outputs/B1_fixture/batch_run/task2"}
+{"input": "../data/b1_fixtures/b1_fixture_input.json", "outdir": "../outputs/B1_fixture/batch_run/task3"}

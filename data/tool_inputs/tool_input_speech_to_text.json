@@ -1,0 +1,9 @@
+{
+  "audio_path": "audio/1008_ITH_DIS_XX.wav",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": false,
+  "max_duration_sec": 120,
+  "include_segments": true,
+  "max_segments": 50
+}

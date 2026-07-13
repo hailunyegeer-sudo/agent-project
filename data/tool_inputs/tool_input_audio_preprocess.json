@@ -1,0 +1,10 @@
+{
+  "audio_path": "audio/1008_ITH_DIS_XX.wav",
+  "target_sample_rate": 16000,
+  "trim_silence": true,
+  "trim_top_db": 30,
+  "normalize": true,
+  "export_formats": ["wav", "mp3", "flac"],
+  "generate_diagnostics": true,
+  "max_duration_sec": 120
+}

@@ -1,0 +1,18 @@
+runtime:
+  python_executable: "/opt/conda/envs/cosyvoice/bin/python"
+  timeout_sec: 600
+  max_total_chars: 1200
+  min_chunk_chars: 20
+  max_chunk_chars: 60
+  hard_max_chunk_chars: 80
+  inter_chunk_silence_sec: 0.08
+  persistent_worker: false
+  load_jit: false
+  fp16: false
+  disable_text_frontend: true
+
+voice:
+  cosyvoice_repo: "../../CosyVoice"
+  model_dir: "../../CosyVoice2-0.5B"
+  prompt_wav: "../../CosyVoice/asset/zero_shot_prompt.wav"
+  prompt_text: "希望你以后能够做得比我还好。"

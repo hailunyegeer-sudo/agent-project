@@ -1,0 +1,53 @@
+{
+  "repeats": 3,
+  "max_llm_calls": 4,
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "tools_schema_path": "messages/tools_schema_basic.json",
+  "tasks": [
+    {
+      "id": "no_tool",
+      "user_input": "什么是原神？请简要回答。",
+      "expected_tools": [],
+      "tool_outputs": []
+    },
+    {
+      "id": "calculator",
+      "user_input": "请调用 calculator 计算 56*29+81。",
+      "expected_tools": ["calculator"],
+      "tool_outputs": [{"result": 1705}]
+    },
+    {
+      "id": "file_reader",
+      "user_input": "请调用 file_reader 读取 docs/agent_intro.txt，并总结内容。",
+      "expected_tools": ["file_reader"],
+      "tool_outputs": [{"content": "Agent 系统由模型、工具、记忆和执行循环组成。", "source": "docs/agent_intro.txt"}]
+    },
+    {
+      "id": "local_file_search",
+      "user_input": "请调用 local_file_search 在 docs 目录搜索‘工具调用’，返回最相关文件。",
+      "expected_tools": ["local_file_search"],
+      "tool_outputs": [{"results": [{"path": "docs/01_agent_tool_call_exact.md", "score": 1.0}]}]
+    },
+    {
+      "id": "table_analyzer",
+      "user_input": "请调用 table_analyzer 分析 tables/results.csv，告诉我行数和列名。",
+      "expected_tools": ["table_analyzer"],
+      "tool_outputs": [{"rows": 3, "columns": ["task", "score", "latency"]}]
+    },
+    {
+      "id": "format_converter",
+      "user_input": "请调用 format_converter，把 name: Agent Demo 转换成 JSON。",
+      "expected_tools": ["format_converter"],
+      "tool_outputs": [{"formatted_text": "{\"name\":\"Agent Demo\"}"}]
+    },
+    {
+      "id": "search_then_read",
+      "user_input": "请先在 docs 目录搜索 Agent 工具调用，再读取最相关文档并总结。",
+      "expected_tools": ["local_file_search", "file_reader"],
+      "tool_outputs": [
+        {"results": [{"path": "docs/01_agent_tool_call_exact.md", "score": 1.0}]},
+        {"content": "Agent 先规划工具调用，B3 校验并执行 Skill，结果再交回模型。", "source": "docs/01_agent_tool_call_exact.md"}
+      ]
+    }
+  ]
+}

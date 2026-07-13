@@ -1,0 +1,12 @@
+{
+  "execution_mode": "integrated",
+  "input_type": "text",
+  "conversation_id": "conv_kv_cache_hit_001",
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "selected_memory_ids": [],
+  "use_global_memory": false,
+  "toolset": "basic_tools",
+  "max_turns": 4,
+  "save_memory": "none",
+  "user_input": "Please answer in Chinese. First use exactly one file_reader tool call to read docs/03_agent_development_exact.md with max_chars 2000. After the tool result is available, summarize the document into three concise Chinese bullet points. Do not call local_file_search because the exact file path is already provided."
+}

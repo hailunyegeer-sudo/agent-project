@@ -1,0 +1,5 @@
+{
+  "text": "你好，这是多模态语音 Agent 的文本转语音测试。",
+  "language": "zh",
+  "output_filename": "b2_tts_test.wav"
+}

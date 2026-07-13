@@ -1,0 +1,33 @@
+runtime:
+  default_mode: prompt_json
+model:
+  backend: transformers
+  model_name_or_path: /root/siton-tmp/assignment_B/Qwen3.5-4B
+  tokenizer_name_or_path: /root/siton-tmp/assignment_B/Qwen3.5-4B
+  local_files_only: true
+  trust_remote_code: true
+  torch_dtype: bfloat16
+  device_map: auto
+generation:
+  max_new_tokens: 50
+  do_sample: false
+  temperature: 0
+  top_p: 1
+kv_cache:
+  enabled: false
+  ttl_seconds: 300
+  max_entries: 8
+  max_tokens_per_entry: 8192
+  max_total_gpu_mb: 2048
+  cpu_enabled: true
+  cpu_max_entries: 32
+  cpu_max_total_mb: 8192
+context:
+  max_input_tokens: 4096
+tool_calling:
+  mode: prompt_json
+  schema_injection: prompt
+outputs:
+  save_raw_output: true
+  save_ai_message: true
+  save_prompt_text: true

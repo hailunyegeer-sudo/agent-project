@@ -1,0 +1,10 @@
+{
+  "conversation_id": "conv_genshin_001",
+  "user_input": "什么是原神",
+  "system_prompt_path": "../prompts/local_tool_agent.txt",
+  "selected_memory_ids": [],
+  "use_global_memory": false,
+  "toolset": "basic_tools",
+  "max_turns": 3,
+  "save_memory": "none"
+}
