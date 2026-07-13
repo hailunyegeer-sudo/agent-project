@@ -1,0 +1,112 @@
+{
+  "mem_course_001": {
+    "memory_id": "mem_course_001",
+    "memory_type": "global",
+    "title": "Agent 基础概念",
+    "summary": "Agent 系统由模型、工具、记忆和执行循环组成。",
+    "path": "global/mem_course_001.md",
+    "conversation_id": null,
+    "created_at": "2026-06-20T00:00:00+08:00",
+    "updated_at": "2026-06-20T00:00:00+08:00"
+  },
+  "mem_conversation_conv_000": {
+    "memory_id": "mem_conversation_conv_000",
+    "memory_type": "conversation",
+    "title": "Conversation conv_000",
+    "summary": "Agent（智能体）是指能够自主感知环境、规划行动并执行任务的智能系统。它通常具备感知、决策和执行三个核心能力，能够根据目标动态调整行为，无需人类持续干预即可完成任务。在人工智能领域，Agent 可以是简单的规则系统，也可以是复杂的深度学习模型，广泛应用于自动化、机器人、客户服务等场景。",
+    "path": "conversations/conv_000.md",
+    "conversation_id": "conv_000",
+    "created_at": "2026-06-22T14:07:46+00:00",
+    "updated_at": "2026-06-22T14:07:46+00:00"
+  },
+  "mem_conversation_cfd1f52adbdf_turn_001": {
+    "memory_id": "mem_conversation_cfd1f52adbdf_turn_001",
+    "memory_type": "conversation",
+    "title": "Conversation cfd1f52adbdf_turn_001",
+    "summary": "用户通过语音提问，Woody 代理（Agent：Woody's agent) 经语音转文字后，识别到用户意图。系统调用音频预处理、语音识别及计算器等工具，经多次 LLM 交互与工具调用，最终直接回答：100 乘以 0.5 等于 75.0（注：根据对话实际输出修正为 75.0，涉及计算结果确认）。",
+    "path": "conversations/cfd1f52adbdf_turn_001.md",
+    "conversation_id": "cfd1f52adbdf_turn_001",
+    "created_at": "2026-07-03T11:06:33+08:00",
+    "updated_at": "2026-07-03T11:06:33+08:00"
+  },
+  "mem_conversation_20de107c6f89_turn_002": {
+    "memory_id": "mem_conversation_20de107c6f89_turn_002",
+    "memory_type": "conversation",
+    "title": "Conversation 20de107c6f89_turn_002",
+    "summary": "用户询问感冒症状。系统经音频预处理、语音识别及本地搜索后，列出包括发热、咳嗽、喉咙痛、流鼻涕、头痛、肌肉酸痛、乏力、打喷嚏、食欲减退及畏寒在内的十项典型症状。同时补充说明感冒多由病毒引起，通常 1-2 周自愈；若症状加重或出现高烧、呼吸困难，建议及时就医。",
+    "path": "conversations/20de107c6f89_turn_002.md",
+    "conversation_id": "20de107c6f89_turn_002",
+    "created_at": "2026-07-03T11:20:32+08:00",
+    "updated_at": "2026-07-03T11:20:32+08:00"
+  },
+  "mem_conversation_20de107c6f89_turn_003": {
+    "memory_id": "mem_conversation_20de107c6f89_turn_003",
+    "memory_type": "conversation",
+    "title": "Conversation 20de107c6f89_turn_003",
+    "summary": "用户询问感冒的典型症状。Agent 结合上下文，详细列举了包括发热、咳嗽、喉咙痛、流鼻涕、头痛、肌肉酸痛、乏力、打喷嚏、食欲减退及畏寒在内的十大常见症状。同时，Agent 指出感冒多由病毒引起，通常为一周至两周的自限性疾病，并建议若出现高烧、呼吸困难等加重情况应及时就医。",
+    "path": "conversations/20de107c6f89_turn_003.md",
+    "conversation_id": "20de107c6f89_turn_003",
+    "created_at": "2026-07-03T11:23:28+08:00",
+    "updated_at": "2026-07-03T11:23:28+08:00"
+  },
+  "mem_conversation_44bbc78e0def_turn_001": {
+    "memory_id": "mem_conversation_44bbc78e0def_turn_001",
+    "memory_type": "conversation",
+    "title": "Conversation 44bbc78e0def_turn_001",
+    "summary": "用户询问感冒症状。系统完成音频转写后，通过 LLM 生成详细回答，列出发热、咳嗽、喉咙痛、流鼻涕、鼻塞、头痛、肌肉酸痛、疲劳、打喷嚏及嗅觉减退等十项常见症状，并建议症状加重时及时就医。",
+    "path": "conversations/44bbc78e0def_turn_001.md",
+    "conversation_id": "44bbc78e0def_turn_001",
+    "created_at": "2026-07-03T15:30:08+08:00",
+    "updated_at": "2026-07-03T15:30:08+08:00"
+  },
+  "mem_conversation_44bbc78e0def_turn_002": {
+    "memory_id": "mem_conversation_44bbc78e0def_turn_002",
+    "memory_type": "conversation",
+    "title": "Conversation 44bbc78e0def_turn_002",
+    "summary": "用户询问感冒中哪些症状较严重。Agent 基于医学常识，列出了八类需警惕的严重症状，包括高烧、呼吸困难、剧烈头痛、吞咽困难、持续呕吐腹泻、意识模糊、胸痛及症状持续加重。同时建议若出现上述情况或症状超一周未好转应及时就医，并特别提醒儿童、老人及基础病患者应尽早咨询医生。",
+    "path": "conversations/44bbc78e0def_turn_002.md",
+    "conversation_id": "44bbc78e0def_turn_002",
+    "created_at": "2026-07-03T15:35:27+08:00",
+    "updated_at": "2026-07-03T15:35:27+08:00"
+  },
+  "mem_conversation_44bbc78e0def_turn_004": {
+    "memory_id": "mem_conversation_44bbc78e0def_turn_004",
+    "memory_type": "conversation",
+    "title": "Conversation 44bbc78e0def_turn_004",
+    "summary": "用户询问感冒用药。Agent 先完成音频转写，随后列出常见感冒药分类：包括退烧止痛、缓解鼻塞流涕等对症治疗药物，以及连花清瘟等中成药和复方感冒药。同时强调轻症无需抗生素，避免重复用药，特殊人群需咨询医生，症状持续或加重应及时就医，并提醒信息仅供参考，具体用药请遵医嘱。",
+    "path": "conversations/44bbc78e0def_turn_004.md",
+    "conversation_id": "44bbc78e0def_turn_004",
+    "created_at": "2026-07-03T15:54:17+08:00",
+    "updated_at": "2026-07-03T15:54:17+08:00"
+  },
+  "mem_conversation_bc6a1d68feff_turn_001": {
+    "memory_id": "mem_conversation_bc6a1d68feff_turn_001",
+    "memory_type": "conversation",
+    "title": "Conversation bc6a1d68feff_turn_001",
+    "summary": "用户询问正常成年人的身高体重标准。Agent 先调用音频预处理和语音识别工具完成转录，随后通过一次 LLM 调用生成回答。最终回复指出，成年人身高通常在 150-180 厘米，正常体重需结合身高、性别等因素，一般参考 BMI 指数在 18.5-24 之间，并给出了具体身高对应的常见体重范围。",
+    "path": "conversations/bc6a1d68feff_turn_001.md",
+    "conversation_id": "bc6a1d68feff_turn_001",
+    "created_at": "2026-07-03T15:58:16+08:00",
+    "updated_at": "2026-07-03T15:58:16+08:00"
+  },
+  "mem_conversation_bc6a1d68feff_turn_002": {
+    "memory_id": "mem_conversation_bc6a1d68feff_turn_002",
+    "memory_type": "conversation",
+    "title": "Conversation bc6a1d68feff_turn_002",
+    "summary": "用户询问今日天气，系统经音频预处理与语音识别后，由 LLM 处理并回复。因缺乏实时数据权限，系统无法直接提供天气信息，而是建议用户查看手机应用或气象网站获取最新情况。",
+    "path": "conversations/bc6a1d68feff_turn_002.md",
+    "conversation_id": "bc6a1d68feff_turn_002",
+    "created_at": "2026-07-03T16:12:03+08:00",
+    "updated_at": "2026-07-03T16:12:03+08:00"
+  },
+  "mem_conversation_conv_sample_001": {
+    "memory_id": "mem_conversation_conv_sample_001",
+    "memory_type": "conversation",
+    "title": "Conversation conv_sample_001",
+    "summary": "用户询问\"Agent\"的定义。系统未调用任何工具，仅通过一次 LLM 调用直接回答：Agent 是一种能够结合大语言模型、外部工具及记忆机制，从而自主规划并完成任务的智能体。该回答简洁明了，无需额外工具交互。",
+    "path": "conversations/conv_sample_001.md",
+    "conversation_id": "conv_sample_001",
+    "created_at": "2026-07-13T10:36:39+08:00",
+    "updated_at": "2026-07-13T10:36:39+08:00"
+  }
+}
